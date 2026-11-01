@@ -1,0 +1,10 @@
+$ git branch -avv
+* bug-fix-revert                3e587b6 [origin/bug-fix-revert] Add pull request verification
+  bug-fix-typo                  92917a6 [origin/bug-fix-typo] Fix typo in README footer
+  main                          a881674 [origin/main] Save merge output
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 3e587b6 Add pull request verification
+  remotes/origin/bug-fix-typo   92917a6 Fix typo in README footer
+  remotes/origin/main           a881674 Save merge output
+  remotes/upstream/HEAD         -> upstream/main
+  remotes/upstream/main         ad95b0a Create close_pr.yml
