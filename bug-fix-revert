@@ -1,0 +1,20 @@
+$ curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13264" | jq '{html_url, state, head: {label: .head.label, ref: .head.ref, repo: {full_name: .head.repo.full_name, fork: .head.repo.fork}}, base: {label: .base.label, ref: .base.ref, repo: {full_name: .base.repo.full_name}}}'
+{
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13264",
+  "state": "closed",
+  "head": {
+    "label": "yuolnvs-coder:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "yuolnvs-coder/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
